@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.view.backgroundColor = [UIColor yellowColor];
+    self.view.backgroundColor = [UIColor grayColor];
     
     UIBarButtonItem * rightItem = [[UIBarButtonItem alloc] initWithTitle:@"翻滚吧" style:UIBarButtonItemStylePlain target:self action:@selector(gotoSecondVC)];
     self.navigationItem.rightBarButtonItem = rightItem;
